@@ -1,4 +1,4 @@
 # PROJECT
-WEB STREAMING PLATFORM
+WEB STREAMING DAN BACA KOMIK/MANHWA 
 
-PROTOTYPE FIGMA ->  https://www.figma.com/design/GGA7pmSYpBBrEh5suKyYXq/PROJECT?node-id=0-1&t=pUchnYlCNsHx5lsA-1
+PROTOTYPE FIGMA ->  https://www.figma.com/design/GGA7pmSYpBBrEh5suKyYXq/PROJECT?node-id=0-1&t=kuqHUbpeS1GMXHeM-1
