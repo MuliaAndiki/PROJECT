@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dasboard</title>
-  <link rel="Stylesheet" href="/Style/Style.css">
+  @vite('resources/Style/Style.css')
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -22,9 +22,11 @@
         <a href="#"target="_blank">REKOMENDASI</a>
       </nav>
       <!--Boks search-->
-      <div class="search">
+      <div class="search-icon">
         <i class="bx bx-search" id="search-icon"></i>
-        <!-- <input type="text" placeholder="Search Anime"> -->
+      </div>
+      <div id="search" class="search">
+        <input type="text" placeholder="Search">
       </div>
     <div>
     </header>
@@ -168,6 +170,6 @@
     </main>
 
     <!--logic js-->
-    <script src="/Script/logic.js"></script>
+    @vite('resources/script/logic.js')
 </body>
 </html>
