@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dasboard</title>
   @vite('resources/Style/Style.css')
+  <link href="/Style/Style.css";>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -37,7 +38,7 @@
         <div class="hero-content">
 
           <a href="#"target="_blank">
-            <img src="image\POSTERLANDSCAPE\Solo Leveling.jpg" alt="Solo Leveling">
+            <img src="image\POSTERLANDSCAPE\Solo Leveling.jpg">
           </a>
           <div class="hero-text">
             <h1> Solo Leveling </h1>
@@ -91,7 +92,7 @@
 
         <!--Gambar 1 -->
         <a href="#"target="_blank">
-          <img src="image\POSTERLANDSCAPE\Black Clover.jpg">
+          <img src="/image/OSTERLANDSCAPE/Black Clover.jpg">
         </a>
 
         <!--Gambar 2 -->
