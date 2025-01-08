@@ -36,17 +36,22 @@
     <main>
       <section class="hero">
         <div class="hero-content">
-
-          <a href="#"target="_blank">
+          
             <img src="image\POSTERLANDSCAPE\Solo Leveling.jpg">
-          </a>
+         </div>
+         
           <div class="hero-text">
-            <h1> Solo Leveling </h1>
+            <a> 
+            <img src="\image\Text\Solo Leveling.png">
+          </a>
             <p> Solo Leveling Adalah salah satu judul yang paling di tunggu-tunggu dalam dunia Anime, Dengan Cerita yang kuat, karakter-karakter yang menarik dengan sistem leveling yang inovatif.</p>
             <!--Buttom Play-->
-            <button class="Play" onclick="">Play</button>
+            <button class="play" onclick="playFungsion()"><i class='bx bx-play'></i>Play
+            </button>
             <!--Buttom Add-->
-            <button class="add" onclick="">Add To My List</button>
+            <button class="add" onclick="addFungsion()"><i class='bx bx-plus'></i>Add To My List
+              
+            </button>
           </div>
           <!--Rekoemdasi Di Awal-->
           <div class="Rekomendasi">
@@ -57,7 +62,7 @@
 
     <!--News Update Anime-->
     <section class="news-update">
-    <h2>NEWS UPDATE</h2>
+    <i class='bx bx-plus'></i><h2>NEWS UPDATE</h2>
     <div class="Poster">
       <!--Poster gambar untuk news update-->
 
@@ -86,7 +91,7 @@
 
     <!--Movie Anime-->
     <section class="movie">
-      <h2>MOVIE</h2>
+      <i class='bx bx-plus'></i><h2>MOVIE</h2>
       <div class="poster1">
         <!--Gambar Untuk Class Movie Anime-->
 
@@ -113,7 +118,7 @@
     </section>
 
   <section class="On Going">
-    <h2>ON GOING</h2>
+    <i class='bx bx-plus'></i><h2>ON GOING</h2>
     <div class="poster 2">
       <!--Gambar Untuk Class On Going Anime-->
 
