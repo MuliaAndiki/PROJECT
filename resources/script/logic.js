@@ -1,5 +1,5 @@
 //Notif untuk Reload Website
-alert('RELOAD ANJAYY');
+// alert('RELOAD ANJAYY');
 
 let searchicon = document.getElementById('search-icon');
 let searchinput = document.querySelector('.search input');
@@ -19,3 +19,13 @@ window.addEventListener('click', function(event){
     searchinput.style.display = 'none';
   }
 });
+
+//masi belum fix
+function playFungsion(){
+  alert('Here We Go!');
+}
+
+//masi belum fix
+function addfungsion(){
+  alert('jangan lupa di tonton yaw :3');
+}
