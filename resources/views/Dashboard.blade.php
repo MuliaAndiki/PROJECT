@@ -17,10 +17,10 @@
 
       <!--Header Atas Untuk Navigasi-->
       <nav class="navigasi">
-        <a href="#"target="_blank">HOME</a>
-        <a href="#"target="_blank">DAFTAR</a>
-        <a href="#"target="_blank">GENRE</a>
-        <a href="#"target="_blank">REKOMENDASI</a>
+        <a href="Dashboard">HOME</a>
+        <a href="#">DAFTAR</a>
+        <a href="#">GENRE</a>
+        <a href="Rekomendasi">REKOMENDASI</a>
       </nav>
       <!--Boks search-->
       <div class="search-icon">
@@ -37,7 +37,12 @@
       <section class="hero">
         <div class="hero-content">
           
-            <img src="image\POSTERLANDSCAPE\Solo Leveling.jpg">
+            <img src="image\POSTERLANDSCAPE\Solo Leveling.jpg"
+            srcset="image\POSTERLANDSCAPE\Solo Leveling.jpg 600w,
+                    image\POSTERLANDSCAPE\Solo Leveling.jpg 1000w,
+                    image\POSTERLANDSCAPE\Solo Leveling.jpg 1500w"
+            sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"
+            alt="Solo Leveling Poster">
          </div>
          
           <div class="hero-text">
@@ -54,8 +59,8 @@
             </button>
           </div>
           <!--Rekoemdasi Di Awal-->
-          <div class="Rekomendasi">
-            <a href="#"target="_blank">Rekomendasi</a>
+          <div class="rekomendasi">
+            <a href="#">Rekomendasi :</a>
           </div>
         </div>  
       </section>
@@ -177,5 +182,6 @@
 
     <!--logic js-->
     @vite('resources/script/logic.js')
+    <link rel="stylesheet" href="/script/logic.js">
 </body>
 </html>
