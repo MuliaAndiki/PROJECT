@@ -1,5 +1,5 @@
 /* Import  */
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Gochi+Hand&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Gochi+Hand&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gugi&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -43,7 +43,28 @@ body {
   --main-footer-kategori-font :'jersey 10', serif;
   --main-navbar-kategori-font :'Monserrat',serif;
   --main-bottom-font:'Gochi and',serif;
+  --main-footer-deksripsi-font: 'Gugi',serif;
   
+  /* Layout Foto*/
+  --layout-position: relative;
+  --layout-bottom : 25px;
+  --layout-width :48vh;
+  --layout-height :30vh;
+  --layout-objet-fit :cover;
+  --layout-border-radius: 4px;
+  /* Z- index Menyesuaikan*/  
+
+  /* Icon Play*/
+  --icon-play-position : absolute;
+  --icon-play-color :var(--text-color);
+  --icon-play-font-size :10vh;
+  --icon-play-top : 45%;
+  --icon-play-left :50%;
+  --icon-play-transform : translate(-50%, -50%);
+  --icon-play-opacity: 0;
+  --icon-transition: opacity 0.3s ease, z-index 0.3s ease;
+  /* Z- index Menyesuaikan*/
+
 }
 
 /* Nabvar*/
@@ -87,6 +108,7 @@ body {
   color:var(--text-color);
   position :relative;
   left: 20rem;
+  transition: 0.1s ease-in;
 }
 
 /* icon search*/
@@ -170,7 +192,7 @@ body {
   color: var(--text-color);
   cursor: pointer;
   justify-content: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.6) ;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 /* Icon Play */
@@ -205,7 +227,7 @@ body {
   transform:scale(1.1.2);
 }
 
-/* Hover Bottom add*/
+/* Hover Bottom add */
 .add:hover{
   color: #000000;
   background-color: var(--text-color);
@@ -213,16 +235,193 @@ body {
 }
 
 .rekomendasi a{
-position: relative;
+position: absolute;
 font-family: var(--main-katagori-font);
 color: var(--text-color);
 font-size: 3vh;
 left: 1%;
-bottom: 10px;
+bottom: 11px;
 }
+
+/* hover rekomendasi */
 .rekomendasi a:hover{
   color: var(--hover-color);
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
+/* news-update text*/
+.news-update h2{
+  position: relative;
+  font-family: var(--main-katagori-font);
+  left: 30px;
+  bottom: 5vh;
+}
 
+/* icon plus */
+.news-update i{
+  font-size: 4vh;
+}
+
+/* Poster */
+.poster{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+/* news-update poster*/
+.posterlandscape{
+  display: flex;
+  position: relative;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  z-index: 96;
+  transition: transform 0.1s ease;
+} 
+
+/* icon play*/
+.posterlandscape i{
+  /* display: none; */
+  position: absolute;
+  color : var(--text-color);
+  font-size: 10vh;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, z-index 0.3s ease;
+  z-index: 98;
+}
+
+/* news-update pict */
+.posterlandscape img{
+  position: var(--layout-position);
+  bottom :var(--layout-bottom);
+  width: var(--layout-width);
+  height: var(--layout-height);
+  object-fit: var(--layout-objet-fit);
+  border-radius: var(--layout-border-radius);
+  z-index: 96;  
+} 
+
+.posterlandscape:hover i{
+  opacity: 1;
+  color: var(--text-color);
+  z-index: 99;
+}
+
+/* hover  news -update gambar*/
+.posterlandscape:hover img{
+  transform: scale(1.04);
+  transition: 0.1s ease;
+  color: var(--bg-color);
+  opacity: 30%;
+  z-index: 97;
+}
+
+/*movie text*/
+.movie h2{
+ position: relative;
+ font-family: var(--main-katagori-font);
+ left: 2%;
+ bottom: 5vh;
+}
+
+/*movie icon plus*/
+.movie i{
+  font-size: 4vh;
+}
+/* poster 1*/
+.poster1{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+/* icon play psoter 2 */
+ .posterlandscape i{
+  /* display: none; */
+  position: absolute;
+  color : var(--text-color);
+  font-size: 10vh;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, z-index 0.3s ease;
+  z-index: 98;
+}
+
+/* on-going text */
+.on-going h2{
+  position: relative;
+  font-family: var(--main-katagori-font);
+  bottom: 4.9vh;
+  left: 5vh;
+}
+/* on-going icon */
+.on-going i{
+  font-size: 4vh;
+}
+/*poster2*/
+.poster2{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* icon play psoter 2 */
+.posterlandscape i{
+  position: absolute;
+  color : var(--text-color);
+  font-size: 10vh;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, z-index 0.3s ease;
+  z-index: 98;
+}
+/* Footer */
+.footer{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+/* Footer-content*/
+.footer-content{
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+  margin: 16px;
+  padding: 10px;
+  background-color: var(--bg-color);
+}
+/* membuat text berada di tengah */
+.footer-content > div{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Footer title*/
+.footer-content h3{
+  position : relative;
+  position: relative;
+  align-items: center;
+  font-family: var(--main-footer-kategori-font);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0.6);
+  font-size: 4vh;
+}
+/* deskripsi footer */
+.footer-content p{
+  position: relative;
+  font-size: 3vh;
+  font-family: var(--main-footer-deksripsi-font);
+}
+
+/* Hover Laporan Error */
+.laporkan p:hover{
+  color: var(--hover-color);
+}
