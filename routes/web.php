@@ -1,10 +1,13 @@
 <?php
 
-use App\Http\Controllers\Gambarcontrol;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+//Rute ke dashboard
+Route::get('/Dashboard', function () {
     return view('Dashboard');
 });
 
-Route::get('gambar', [Gambarcontrol::class, 'tampilkangambar']);
+//Rute ke rekomendasi
+Route::get('/Rekomendasi',function(){
+    return view ('Rekomendasi');
+});
