@@ -32,5 +32,7 @@
   <div>
   </header>
   
+  @vite('resources/script/logic.js')
+  <link rel="Stylesheet" href="/script/logic.js">
 </body>
 </html>

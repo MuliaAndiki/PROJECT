@@ -11,7 +11,7 @@
 <body>
   
     <header class ="header">
-      <a href="#" class="icon"target="_blank">Website Streaming</a>
+      <a href="#" class="icon">Website Streaming</a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
 
@@ -68,27 +68,37 @@
     <!--News Update Anime-->
     <section class="news-update">
     <i class='bx bx-plus'></i><h2>NEWS UPDATE</h2>
-    <div class="Poster">
-      <!--Poster gambar untuk news update-->
-
+    <div class="poster">
       <!--Gambar 1 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+        <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\One Piece.jpeg">
+        </div>
       </a>
 
       <!--Gambar 2 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+        <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\Blue lock 1.jpeg">
+      </div>
       </a>
 
       <!--Gambar 3 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+        <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\hunter x hunter.jpeg">
+      </div>
       </a>
 
       <!--Gambar 4 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\jujutsu kaisen.jpeg">
+      </div>
       </a>
 
     </div>
@@ -101,50 +111,74 @@
         <!--Gambar Untuk Class Movie Anime-->
 
         <!--Gambar 1 -->
-        <a href="#"target="_blank">
-          <img src="/image/OSTERLANDSCAPE/Black Clover.jpg">
+        <a href="#">
+          <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
+          <img src="/image/POSTERLANDSCAPE/Black Clover.jpg">
+        </div>
         </a>
 
         <!--Gambar 2 -->
-        <a href="#"target="_blank">
+        <a href="#">
+          <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
           <img src="image\POSTERLANDSCAPE\Kimi No Na Wa.jpg">
+        </div>
         </a>
         
         <!--Gambar 3 -->
-        <a href="#"target="_blank">
+        <a href="#">
+          <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
           <img src="image\POSTERLANDSCAPE\Suzume no tojimari.jpg">
+        </div>
         </a>
 
         <!--Gambar 4 -->
-        <a href="#"target="_blank">
+        <a href="#">
+          <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
           <img src="image\POSTERLANDSCAPE\spyxfamily.jpg">
+        </div>
         </a>
       </div>
     </section>
 
-  <section class="On Going">
+  <section class="on-going">
     <i class='bx bx-plus'></i><h2>ON GOING</h2>
     <div class="poster 2">
       <!--Gambar Untuk Class On Going Anime-->
 
       <!--Gambar 1 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\BOCCHI THE ROCK.jpeg">
+      </div>
       </a>
 
       <!--Gambar 2 -->
-      <a href="#"target="_blank">
+      <a href="#">
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\Tsue to rugi.jpeg">
+      </div>
       </a>
 
       <!--Gambar 3 -->
-      <a href="#" target="_blank">
+      <a href="#" >
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\WindBreaker.jpg">
+      </div>
       </a>
 
       <!--Gambar 4 -->
-      <a href="#" target="_blank">
+      <a href="#" >
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
         <img src="image\POSTERLANDSCAPE\the promised neverland.jpg">
+      </div>
       </a>
 
     </div>
@@ -162,14 +196,16 @@
 
       <!--apa aja yang baru-->
       <div class="what news">
-        <h3>Apa Yang Baru</h3>
+        <h3>Apa Yang Baru?</h3>
         <p>Banyak varian anime baru yang di rilis lho! mulai dari musim spring, summer, fail dan winter lho! segera nonton di situs AAAA</p>
       </div>
 
       <!-- laporakan -->
       <div class="report">
-        <h3>Lapor</h3>
+        <h3>Laporkan</h3>
+        <div class="laporkan">
         <p>Laporkan Error</p>
+        </div>
 
       </div>
     </div>
