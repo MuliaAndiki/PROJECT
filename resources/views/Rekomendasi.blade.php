@@ -97,6 +97,16 @@
       
     </div>
   </section>
+
+  <section class="laman">
+    <h1>Halaman</h1>
+    <button class='laman1' onclick="#">1</button>
+    <button class='laman1' onclick="#">2</button>
+    <button class='laman1' onclick="#">3</button>
+    <button class='laman1' onclick="#">4</button>
+    <button class='laman1' onclick="#">5</button>
+    <div class="separator"></div>
+  </section>
   
   @vite('resources/script/logic.js')
   <link rel="Stylesheet" href="/script/logic.js">

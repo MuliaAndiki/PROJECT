@@ -61,6 +61,7 @@
           <!--Rekoemdasi Di Awal-->
           <div class="rekomendasi">
             <a href="#">Rekomendasi :</a>
+            <div class="separator"></div>
           </div>
         </div>  
       </section>
