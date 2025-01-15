@@ -32,6 +32,72 @@
   <div>
   </header>
   
+  <section class="line-1">
+    <!-- Poster3 -->
+    <div class="poster3">
+        <a href="#">
+          <div class='posterlandscape'>
+            <i class='bx bx-play-circle'></i>
+            <img src='image\POSTERLANDSCAPE\One Piece.jpeg'>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class='posterlandscape'>
+            <i class='bx bx-play-circle'></i>
+            <img src='image\POSTERLANDSCAPE\Bluelock.jpeg'>
+          </div>  
+        </a>
+
+        <a href="#">
+          <div class='posterlandscape'>
+            <i class='bx bx-play-circle'></i>
+            <img src='image\POSTERLANDSCAPE\hunter x hunter.jpeg'>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="posterlandscape">
+            <i class="bx bx-play-circle"></i>
+            <img src='image\POSTERLANDSCAPE\jujutsu kaisen.jpeg'>
+          </div>
+        </a>
+    </div>
+  </section>
+
+  <section class="line-2">
+    <div class="poster4">
+      <a href="#">
+        <div class="posterlandscape">
+          <i class="bx bx-play-circle"></i>
+          <img src="image\POSTERPOTRAIT\DANDANDAN.jpeg">
+        </div>
+      </a>
+
+      <a href="#">
+        <div class='posterlandscape'>
+          <i class='bx bx-play-circle'></i>
+          <img src='image\POSTERPOTRAIT\Haikyuu.jpeg'>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="posterlandscape">
+          <i class='bx bx-play-circle'></i>
+          <img src="image\POSTERPOTRAIT\Attack on titan.jpeg">
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="posterlandscape">
+          <i class="bx bx-play-circle"></i>
+          <img src="image\POSTERPOTRAIT\chainsaw man.jpeg">
+        </div>
+      </a>
+      
+    </div>
+  </section>
+  
   @vite('resources/script/logic.js')
   <link rel="Stylesheet" href="/script/logic.js">
 </body>
