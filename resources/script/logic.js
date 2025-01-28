@@ -1,5 +1,5 @@
 //Notif untuk Reload Website
-// alert('RELOAD ANJAYY');
+console.log("Debugging");
 
 let searchicon = document.getElementById('search-icon');
 let searchinput = document.querySelector('.search input');
@@ -26,6 +26,6 @@ function playFungsion(){
 }
 
 //masi belum fix
-function addfungsion(){
+function addFungsion(){
   alert('jangan lupa di tonton yaw :3');
 }
