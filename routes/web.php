@@ -1,12 +1,8 @@
 <?php
 
+use App\Http\Controllers\DashboardpictController;
 use Illuminate\Support\Facades\Route;
 
-
-//Rute ke dashboard
-Route::get('/Dashboard', function () {
-    return view('Dashboard');
-});
 
 //Rute ke Rekomendasi
 Route::get('/Rekomendasi2',function(){
@@ -21,7 +17,6 @@ Route:: get('/Home',function(){
     return view ('Home');
 });
 Route::get('/Rekomendasi2', [RekomendasiController::class,"index"]);
-
-
- Route::get('/Rekomendasi/{id}', 'RekomendasiController@Rekomendasi');
- Route ::post('/Rekomendasii/{id}', 'RekomendasiController@insertData')->name('insertData');  
+Route::get('/Dashboard', [DashboardpictController::class, 'index'])->name('Dashboard');
+Route::get('/Rekomendasi/{id}', 'RekomendasiController@Rekomendasi');
+Route ::post('/Rekomendasii/{id}', 'RekomendasiController@insertData')->name('insertData');  

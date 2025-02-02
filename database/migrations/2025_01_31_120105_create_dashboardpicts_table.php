@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('_rekomendasi', function (Blueprint $table) {
+        Schema::create('dashboardpicts', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('foto')->default('noimage.png');
+            $table->timestamps();            
         });
     }
 
@@ -22,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('_rekomendasi');
+        Schema::dropIfExists('dashboardpicts');
     }
 };

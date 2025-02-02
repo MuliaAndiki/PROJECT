@@ -23,7 +23,7 @@
     <!--News Update Anime-->
     <div class="container mt-3">
       <!-- Pemangilan Component -->
-      <x-newsupdate />
+      <x-newsupdate :Dashboardpict="$Dashboardpict"/>
     </div>
     
 

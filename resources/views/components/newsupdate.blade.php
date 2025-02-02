@@ -1,3 +1,6 @@
+@vite('resources/Style/Style.css')
+@vite('resources/script/logic.js')
+
 <section class="news-update">
   <i class='bx bx-plus'></i><h2>NEWS UPDATE</h2>
   <div class="poster">
@@ -5,7 +8,9 @@
     <a href="#">
       <div class="posterlandscape">
       <i class='bx bx-play-circle'></i>
-      <img src="image\POSTERLANDSCAPE\One Piece.jpeg">
+      @foreach ($Dashboardpict as $pict)
+      <img src="{{ asset('storage/' . $pict->foto) }}" alt="One Piece"/>
+      @endforeach
       </div>
     </a>
 
