@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class NewsUpdate extends Component
 {
+    public $Dashboardpict;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($Dashboardpict = [])
     {
-        //
+        $this->Dashboardpict = $Dashboardpict;
     }
 
     /**
@@ -21,6 +22,6 @@ class NewsUpdate extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.news-update');
+        return view('components.newsupdate', ['Dashboardpict' => $this->Dashboardpict]);
     }
 }

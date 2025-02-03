@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\View\Components\NewsUpdate;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Blade; // Tambahkan ini
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +22,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        Blade::component('newsupdate', \App\View\Components\NewsUpdate::class);
     }
 }

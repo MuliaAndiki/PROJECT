@@ -1,5 +1,7 @@
 @vite('resources/Style/Style.css')
 @vite('resources/script/logic.js')
+<!--Penanda Patch -->
+@dump($Dashboardpict)
 
 <section class="news-update">
   <i class='bx bx-plus'></i><h2>NEWS UPDATE</h2>
