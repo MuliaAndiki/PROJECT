@@ -1,4 +1,5 @@
 //Notif untuk Reload Website
+
 console.log("Debugging");
 
 let searchicon = document.getElementById('search-icon');

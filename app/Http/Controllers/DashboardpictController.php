@@ -10,9 +10,9 @@ class DashboardpictController extends Controller
 {
     public function index()
     {
-        $Dashboardpict = Dashboardpict::all(); 
+        $NewsUpdate = Dashboardpict::all(); 
 
-        return view('Dashboard', compact('Dashboardpict')); 
+        return view('Dashboard', compact('NewsUpdate')); 
     }
     
 }

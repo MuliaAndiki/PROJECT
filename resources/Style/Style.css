@@ -71,7 +71,7 @@ body {
 
 /* Nabvar*/
 .header{
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -83,7 +83,6 @@ body {
   align-items: center;
   z-index: 100;
   box-shadow: 1px 3px 4px rgba(0,0,0,0.6);
-
 }
 
 /* Garis Lurus putih */

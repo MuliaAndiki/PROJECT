@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dasboard</title>
+  <link rel='icon' type="image/x-icon" href="">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <!--News Update Anime-->
     <div class="container mt-3">
       <!-- Pemangilan Component -->
-      <x-newsupdate :Dashboardpict="$Dashboardpict"/>
+      <x-newsupdate :Dashboardpict="$NewsUpdate"/>
     </div>
     
 
